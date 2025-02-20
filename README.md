@@ -1,10 +1,6 @@
 # trp_env
 Two Resource Problem Environment with Mujoco
 
-
-![trp](/uploads/c50634707761f6c680e3b5c2688de1cc/trp.png)
-
-
 ## Install
 ```shell
 git clone ssh://git@gitlab:50002/n-yoshida/trp_env.git
@@ -97,5 +93,3 @@ vision = env.render(mode="rgb_array", camera_id=0)
 # RGBD (0-255, size=64x64x4, depth values are also normalized into 0-255)
 vision = env.render(mode="rgbd_array", camera_id=0)
 ```
-
-![image](/uploads/550393d89c5bbbb0aef10a520816f115/image.png)
